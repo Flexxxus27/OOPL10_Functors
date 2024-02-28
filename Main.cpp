@@ -109,6 +109,7 @@ struct Runner {
 	double result;
 	std::string Name;
 	void operator()(int newID, double newRes, std::string newName);
+
 };
 
 int main() {
